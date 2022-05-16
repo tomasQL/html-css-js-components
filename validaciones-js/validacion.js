@@ -11,15 +11,17 @@ function validar_email () {
 var email = document.getElementById("email").value;
 var div = document.getElementById("msj-email");
     if (email != ""){
-        alert("Todo OK");
+        div.innerHTML = "";
         return true;
     } else {
-        alert("El email mnmo puede estar en blanco");
+        div.innerHTML = "El email no puede estar en blanco";
+        div.className = "text-danger";
         return false;
     }
 }
 
 function validar_password () {
+    var pass = document.getElementById("exampleInputPassword") 
     return true;
 }
 
