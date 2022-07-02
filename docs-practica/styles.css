@@ -1,6 +1,19 @@
 
+/*Finlandica FONT */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
 
+/* .completo para el archivo formulario-ej.html */
 
+.completo {
+    font-family: 'Finlandica', sans-serif;
+    color: black;
+    background: rgb(238,174,202);
+    background: radial-gradient(
+        circle, rgba(238,174,202,1) 0%, 
+        rgba(148,187,233,1) 100%);
+}
+
+/* .titulo-articulo para el archivo doc.html */
 .titulo-articulo {
     margin-left: 20px;
     padding-left: 10px;
