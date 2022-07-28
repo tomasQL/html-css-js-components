@@ -1,0 +1,30 @@
+/*Finlandica FONT */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+    
+body {
+    font-family: 'Finlandica', sans-serif;;
+    display: block;
+    margin: 10px;
+}
+
+/*  Estilizacion de todas las  etiquetas de imagenes */
+img {
+    border-radius: 8px;
+    max-width: 60%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    border-radius: 8px;
+}
+
+.fondo-gris {  
+    background-color: #eee;  
+    padding: 0 5px;  
+    border: 1px solid #333;  
+} 
+
