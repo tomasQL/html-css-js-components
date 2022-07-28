@@ -22,11 +22,19 @@ img {
     height: auto;
 }
 
+dt {
+    font-style: italic;
+}
+
 footer {
     text-align: center;
     padding: 3px;
     color: white;
     border-radius: 8px;
+}
+
+.fuente-dl {
+    text-align: center;
 }
 
 .fondo-gris {  
