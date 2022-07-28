@@ -2,9 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
     
 body {
+    min-height: 100%;
+    margin: 0;
     font-family: 'Finlandica', sans-serif;;
     display: block;
     margin: 10px;
+    /*no repeat y fixed para ajustar el css gradient de fondo*/
+    background-repeat: no-repeat;
+    background: linear-gradient(
+        0deg, rgba(238,174,202,1) 
+        0%, rgba(179,148,233,1) 100%) 
+        fixed;
 }
 
 /*  Estilizacion de todas las  etiquetas de imagenes */
@@ -17,7 +25,6 @@ img {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
     color: white;
     border-radius: 8px;
 }
