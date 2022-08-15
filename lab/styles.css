@@ -42,4 +42,40 @@ footer {
     padding: 0 5px;  
     border: 1px solid #333;  
 } 
+/*
+Demarcar todos los bordes de los elementos HTML
+* {
+    border: 1px solid black;    
+}
 
+*/
+
+nav {
+    background-color: pink;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+a {
+    padding: 31px;
+}
+a:visited {  
+    color: black;
+}  
+a:hover { 
+    color: white;  
+    background-color: grey;  
+}  
+a:active {
+    color: white;  
+    background-color: grey;  
+} 
+
+#advertencia {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 300px;
+}
