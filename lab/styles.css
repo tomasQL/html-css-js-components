@@ -47,7 +47,6 @@ Demarcar todos los bordes de los elementos HTML
 * {
     border: 1px solid black;    
 }
-
 */
 
 nav {
@@ -72,7 +71,6 @@ a:active {
     color: white;  
     background-color: grey;  
 } 
-
 #advertencia {
     border: 1px solid red;
     padding: 10px;
@@ -80,9 +78,9 @@ a:active {
     margin-right: 300px;
 }
 /* 
-lab-2.html
+  lab-2.html
 */
-
+/*  Formulario 1 */
 :enabled {
     background-color: white;
 }
@@ -96,13 +94,30 @@ lab-2.html
     background-color: lightblue;
     font-weight: bold;
 }
-
+/*  Formulario 2 */
 #formulaio2 input:required {
     background-color: lightblue;
 }
 #formulario2 input:optional {
     background-color: lightgreen;
 }
-#formulario2 #enviar, #cancelar {
-    background: none;
+#formulario2 label {
+    display: inline-block;
+    width: 120px;
 }
+#formulario2 input {
+    width: 200px;
+}
+
+#formulario2 input:focus {
+    outline: solid 3px lightgreen;
+    outline-offset: 2px;
+}
+
+
+
+
+
+
+
+
