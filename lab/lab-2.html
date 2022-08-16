@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Laboratorio 2</title>
+</head>
+<body>
+    <span><h2>Formulario 1</h2></span>
+    <section>
+        <form id="formulario" method="#" action="#">
+            <p>
+                <label for="nombre">Su nombre: </label>
+                <input type="text" id="nombre">
+            </p>
+            <p>
+                <label for="edad">Su edad: </label>
+                <input type="text" id="edad" disabled>
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="mujer" value="mujer">
+                <label for="mujer">Mujer</label>
+                <br>
+                <input type="radio" name="sexo" id="hombre" value="hombre">
+                <label for="hombre">Hombre</label>
+            </p>
+            <p>
+                <input type="checkbox" id="acuerdo">
+                <label for="acuerdo">Estoy de acuerdo con los TyC </label>
+            </p>
+        </form>
+    </section>
+    <hr>
+    <span><h2>Formulario 2</h2></span>
+    <section>
+        <form id="formulario2" method="#" action="#">
+            <p>
+                <label for="nombre">Ingresa tu nombre: </label>
+                <input type="text" id="nombre" required>
+            </p>
+            <p>
+                <label for="apellido">Ingresa tu apellido: </label>
+                <input type="text" id="apellido" required>
+            </p>
+            <p>
+                <label for="mail">Ingresa tu email: </label>
+                <input type="text" id="mail">
+            </p>
+            <p>
+                <label for="direccion">Ingresa tu dirección: </label>
+                <input type="text" id="direccion">
+            </p>
+            <p>
+                <input type="submit" name="envio" id="envio" value="enviar">
+                &nbsp;
+                <input type="reset" name="cancelar" id="cancelar" value="cancelar">
+            </p>
+        </form>
+    </section>
+</body>
+</html>

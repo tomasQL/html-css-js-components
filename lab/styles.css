@@ -79,3 +79,30 @@ a:active {
     border-radius: 6px;
     margin-right: 300px;
 }
+/* 
+lab-2.html
+*/
+
+:enabled {
+    background-color: white;
+}
+:disabled {
+    background-color: grey;
+}
+#hombre:checked+label, #mujer:checked+label {
+    font-style: italic;
+}
+#acuerdo:checked+label {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+#formulaio2 input:required {
+    background-color: lightblue;
+}
+#formulario2 input:optional {
+    background-color: lightgreen;
+}
+#formulario2 #enviar, #cancelar {
+    background: none;
+}
